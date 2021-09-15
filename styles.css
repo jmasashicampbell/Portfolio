@@ -1,0 +1,70 @@
+body {
+    color: #414141;
+    font-family: "San Francisco", sans-serif;
+    box-sizing: border-box;
+}
+
+.outer-box  {
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin: 5px;
+}
+
+#contact {
+    background-color: mediumseagreen;
+}
+
+.outer-box a:link, a:visited {
+    color: white;
+    font-weight: bold;
+}
+
+.outer-box p {
+    margin: 5px 0;
+}
+
+#experience li {
+    margin-bottom: 15px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 12em;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+}
+
+.nav-bar li {
+    float: left;
+    width: 6em;
+    border-radius: 15px;
+}
+
+.nav-bar li a {
+    color: black;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-bar li a:hover {
+    border-radius: 15px;
+    background-color: #777;
+    color: white;
+}
+
+.active {
+    background-color: lightskyblue;
+    color: white;
+}
