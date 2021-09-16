@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset='UTF-8'/>
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css"/>
   </head>
@@ -12,46 +13,57 @@
       <li class="active"><a href="portfolio.html">Portfolio</a></li>
     </ul>
 
-    <div class="outer-box" id="about">
-      <h2>About</h2>
-      <p>I am a computer science student at Brigham Young University with a passion for software engineering.</p>
-    </div>
+    <div class="content">
+      <div class="item-box">
+        <h2>About</h2>
+        <p>I am a computer science student at Brigham Young University with a passion for software engineering.</p>
+      </div>
 
-    <div class="outer-box" id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>Day by Day</strong> - an iOS app for daily scripture notifications</li>
-        <li><strong>Dinner's Ready</strong> - an iOS app that tells everyone in the family it's time to eat</li>
-        <li><strong>Lotti</strong> - an integrated system for exercise nutrition tracking</li>
-      </ul>
-    </div>
+      <div class="item-box">
+        <h2>Projects</h2>
+        <ul>
+          <li><strong>Day by Day</strong> - an iOS app for daily scripture notifications</li>
+          <li><strong>Dinner's Ready</strong> - an iOS app that tells everyone in the family it's time to eat</li>
+          <li><strong>Lotti</strong> - an integrated system for exercise nutrition tracking</li>
+        </ul>
+      </div>
 
-    <div class="outer-box" id="experience">
-      <h2>Experience</h2>
-      <ul>
-        <li>
-          <strong>Rivet Health - Software Engineer Intern</strong><br>
-          <p>Apr. 2021 - Present</p>
-          <p>
-            Developed new features and improvements for a Software as a Service web application using Typescript, HTML,
-            CSS,
-            and PostgreSQL.
-          </p>
+      <div class="item-box" id="experience">
+        <h2>Experience</h2>
+        <ul class="paragraph-list">
+          <li>
+            <strong>Rivet Health - Software Engineer Intern</strong><br>
+            <p>Apr. 2021 - Present</p>
+            <p>
+              Developed new features and improvements for a Software as a Service web application using Typescript,
+              HTML,
+              CSS,
+              and PostgreSQL.
+            </p>
+          </li>
+          <li>
+            <strong>METER Group - Software Engineer Intern</strong><br>
+            <p>Nov. 2019 - Apr. 2021</p>
+            <p>
+              Developed new features for a Software as a Service (SaaS) system with both web application and Internet of
+              Things (IoT) device application components, using Python, Django, and Javascript.
+            </p>
+          </li>
+          <li>
+            <strong>METER Group - Research Software Intern</strong><br>
+            <p>June 2016 - October 2017</p>
+            <p>
+              Created web applications to enable remote scientific instrument control for internal
+              research with PHP and Javascript
+            </p>
         </li>
-        <li>
-          <strong>METER Group - Software Engineer Intern</strong><br>
-          <p>Nov. 2019 - Apr. 2021</p>
-          <p>
-            Developed new features for a Software as a Service (SaaS) system with both web application and Internet of
-            Things (IoT) device application components, using Python, Django, and Javascript.
-          </p>
-        </li>
-      </ul>
-    </div>
+        </ul>
+      </div>
 
-    <div class="outer-box" id="contact">
-      <h2>Contact</h2>
-      Send me a message on <a href="https://www.linkedin.com/in/jerome-campbell-54b2861b8/">LinkedIn</a>!
+      <div class="item-box item-box-accent">
+        <h2>Contact</h2>
+        Send me a message on <a href="https://www.linkedin.com/in/jerome-campbell-54b2861b8/">LinkedIn</a>!
+      </div>
     </div>
   </body>
 </html>
