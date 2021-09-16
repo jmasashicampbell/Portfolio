@@ -16,10 +16,10 @@ h1 {
 .item-box  {
     color: #3b3b3b;
     background-color: #bad7e8;
-    padding: 10px;
-    margin: 10px;
+    padding: 30px;
+    margin: 30px 30px 10px;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 30px;
     box-shadow: 0 3px 10px #c2c2c2;
 }
 
@@ -45,7 +45,7 @@ h1 {
     margin-bottom: 15px;
 }
 
-@media only screen and (min-width: 961px) {
+@media only screen and (min-device-width: 480px) and (min-width: 961px){
     .content {
         width: 960px;
         height: 500px;
@@ -55,6 +55,9 @@ h1 {
 
     .item-box {
         width: 45%;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 15px;
     }
 
     #experience {
